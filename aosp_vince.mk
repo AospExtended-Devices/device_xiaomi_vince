@@ -38,6 +38,9 @@ TARGET_USES_AOSP_CHARGER := true
 TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
+# Official status
+EXTENDED_BUILD_TYPE=OFFICIAL
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := aosp_vince
